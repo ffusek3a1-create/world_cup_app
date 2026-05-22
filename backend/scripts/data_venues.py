@@ -74,7 +74,7 @@ VENUES = [
         "lat":        32.7473,
         "lon":        -97.0945,
         "notes":      "Largest venue at the tournament. Most matches (9). Hosts SF (M101).",
-        "match_nos":  [11, 22, 41, 57, 72, 78, 88, 93, 101],
+        "match_nos":  [10, 22, 41, 57, 72, 78, 88, 93, 101],
     },
     {
         "name":       "Mercedes-Benz Stadium",
@@ -91,7 +91,7 @@ VENUES = [
         "lat":        33.7553,
         "lon":        -84.4006,
         "notes":      "Hosts SF (M102). Grass installed Jan 2026 replacing artificial turf.",
-        "match_nos":  [14, 25, 37, 52, 70, 80, 95, 102],
+        "match_nos":  [13, 25, 37, 52, 70, 80, 95, 102],
     },
     {
         "name":       "Levi's Stadium",
@@ -108,7 +108,7 @@ VENUES = [
         "lat":        37.4033,
         "lon":        -121.9694,
         "notes":      "Also hosted Super Bowl LX (Feb 2026). LEED Gold certified.",
-        "match_nos":  [8, 20, 32, 44, 60, 81],
+        "match_nos":  [5, 20, 32, 44, 60, 81],
     },
     {
         "name":       "NRG Stadium",
@@ -125,7 +125,7 @@ VENUES = [
         "lat":        29.6847,
         "lon":        -95.4107,
         "notes":      "First NFL stadium with a retractable roof. Critical for Houston summer heat.",
-        "match_nos":  [10, 21, 35, 45, 63, 76, 90],
+        "match_nos":  [9, 21, 33, 45, 63, 76, 90],
     },
     {
         "name":       "Arrowhead Stadium",
@@ -142,7 +142,7 @@ VENUES = [
         "lat":        39.0489,
         "lon":        -94.4839,
         "notes":      "Oldest venue at the tournament. Guinness Record: 142.2 dB crowd noise (2014).",
-        "match_nos":  [19, 35, 58, 69, 87, 100],
+        "match_nos":  [19, 35, 58, 71, 87, 100],
     },
     {
         "name":       "Gillette Stadium",
@@ -176,7 +176,7 @@ VENUES = [
         "lat":        39.9008,
         "lon":        -75.1675,
         "notes":      "Locally known as 'The Linc'. Already had natural grass — minimal changes needed.",
-        "match_nos":  [9, 31, 42, 55, 68, 89],
+        "match_nos":  [11, 31, 42, 55, 68, 89],
     },
     {
         "name":       "Lumen Field",
@@ -193,7 +193,7 @@ VENUES = [
         "lat":        47.5952,
         "lon":        -122.3316,
         "notes":      "Washington state invested $46.6m total. ~750,000 visitors expected in Seattle.",
-        "match_nos":  [15, 29, 50, 65, 82, 94],
+        "match_nos":  [14, 29, 50, 65, 82, 94],
     },
     {
         "name":       "Hard Rock Stadium",
@@ -210,7 +210,7 @@ VENUES = [
         "lat":        25.9580,
         "lon":        -80.2389,
         "notes":      "Hosts Bronze Final (M103). Already had natural Bermuda grass — no turf swap needed.",
-        "match_nos":  [13, 39, 51, 69, 86, 99, 103],
+        "match_nos":  [15, 39, 51, 69, 86, 99, 103],
     },
 
     # =========================================================================
@@ -305,6 +305,6 @@ VENUES = [
         "lat":        49.2767,
         "lon":        -123.1115,
         "notes":      "Hosted 2010 Winter Olympics ceremonies & 2015 Women's WC Final. ~350,000 visitors expected.",
-        "match_nos":  [6, 27, 40, 51, 64, 85, 96],
+        "match_nos":  [8, 27, 40, 49, 66, 85, 96],
     },
 ]

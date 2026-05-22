@@ -1,5 +1,6 @@
-import sqlite3
-conn = sqlite3.connect('world_cup.db')
+import sqlite3, os
+DB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "world_cup.db")
+conn = sqlite3.connect(DB)
 rows = conn.execute('''
     SELECT v.name, v.city, m.match_no, m.date, m.stage, m.home, m.away
     FROM matches m

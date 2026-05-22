@@ -37,7 +37,9 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 # ── DB path: go up one level from scripts/ to backend/ ────────────────────────
-DATABASE_URL = "sqlite:///../world_cup.db"
+import os as _os
+_DB_PATH = _os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), "world_cup.db")
+DATABASE_URL = "sqlite:///" + _DB_PATH
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()

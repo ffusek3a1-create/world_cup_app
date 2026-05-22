@@ -343,7 +343,7 @@ SCHEDULE = [
 
     {"match": 63, "date": "2026-06-26", "time_et": "20:00", "time_utc": "00:00+1",
      "stage": "Group Stage", "group": "H",
-     "home": "Cabo Verde",   "away": "Saudi Arabia",
+     "home": "Cape Verde",   "away": "Saudi Arabia",
      "venue": "NRG Stadium", "city": "Houston", "country": "USA"},
 
     {"match": 64, "date": "2026-06-26", "time_et": "20:00", "time_utc": "00:00+1",
