@@ -232,10 +232,124 @@ SQUADS = {
     # GROUP C
     # =========================================================================
 
-    "Brazil":                   {"status": "pending", "squad": {}},
+    "Brazil": {
+        "status": "final",
+        "squad": {
+            "goalkeepers": [
+                {"name": "Alisson",             "club": "Liverpool"},
+                {"name": "Éderson",             "club": "Fenerbahce"},
+                {"name": "Weverton",            "club": "Grêmio"},
+            ],
+            "defenders": [
+                {"name": "Alex Sandro",         "club": "Flamengo"},
+                {"name": "Bremer",              "club": "Juventus"},
+                {"name": "Danilo",              "club": "Flamengo"},
+                {"name": "Douglas Santos",      "club": "Zenit St. Petersburg"},
+                {"name": "Gabriel Magalhães",   "club": "Arsenal"},
+                {"name": "Léo Pereira",         "club": "Flamengo"},
+                {"name": "Marquinhos",          "club": "Paris Saint-Germain"},
+                {"name": "Roger Ibañez",        "club": "Al Ahli"},
+                {"name": "Wesley",              "club": "AS Roma"},
+            ],
+            "midfielders": [
+                {"name": "Bruno Guimarães",     "club": "Newcastle United"},
+                {"name": "Casemiro",            "club": "Manchester United"},
+                {"name": "Danilo Santos",       "club": "Botafogo"},
+                {"name": "Fabinho",             "club": "Al Ittihad"},
+                {"name": "Lucas Paquetá",       "club": "Flamengo"},
+            ],
+            "forwards": [
+                {"name": "Endrick",             "club": "Lyon"},
+                {"name": "Gabriel Martinelli",  "club": "Arsenal"},
+                {"name": "Igor Thiago",         "club": "Brentford"},
+                {"name": "Luiz Henrique",       "club": "Zenit St. Petersburg"},
+                {"name": "Matheus Cunha",       "club": "Manchester United"},
+                {"name": "Neymar",              "club": "Santos"},
+                {"name": "Raphinha",            "club": "Barcelona"},
+                {"name": "Rayan",               "club": "Bournemouth"},
+                {"name": "Vinícius Júnior",     "club": "Real Madrid"},
+            ],
+        },
+    },
     "Morocco":                  {"status": "pending", "squad": {}},
-    "Haiti":                    {"status": "pending", "squad": {}},
-    "Scotland":                 {"status": "pending", "squad": {}},
+    "Haiti": {
+        "status": "final",
+        "squad": {
+            "goalkeepers": [
+                {"name": "Johny Placide",         "club": "Bastia"},
+                {"name": "Alexandre Pierre",      "club": "Sochaux"},
+                {"name": "Josue Duverger",        "club": "Cosmos Koblenz"},
+            ],
+            "defenders": [
+                {"name": "Carlens Arcus",         "club": "Angers"},
+                {"name": "Wilguens Paugain",      "club": "Zulte Waregem"},
+                {"name": "Duke Lacroix",          "club": "Colorado Springs Switchbacks"},
+                {"name": "Martin Expérience",     "club": "Nancy"},
+                {"name": "Jean-Kévin Duverne",    "club": "Gent"},
+                {"name": "Ricardo Adé",           "club": "LDU Quito"},
+                {"name": "Hannes Delcroix",       "club": "Lugano"},
+                {"name": "Keeto Thermoncy",       "club": "Young Boys"},
+            ],
+            "midfielders": [
+                {"name": "Carl Fred Sainté",      "club": "El Paso Locomotive"},
+                {"name": "Leverton Pierre",       "club": "Vizela"},
+                {"name": "Danley Jean Jacques",   "club": "Philadelphia Union"},
+                {"name": "Jean-Ricner Bellegarde","club": "Wolverhampton Wanderers"},
+                {"name": "Woodensky Pierre",      "club": "Violette"},
+                {"name": "Dominique Simon",       "club": "FC Tatran Prešov"},
+            ],
+            "forwards": [
+                {"name": "Don Deedson Louicius",  "club": "FC Dallas"},
+                {"name": "Josué Casimir",         "club": "Auxerre"},
+                {"name": "Derrick Etienne",       "club": "Toronto FC"},
+                {"name": "Ruben Providence",      "club": "Almere"},
+                {"name": "Duckens Nazon",         "club": "Esteghlal"},
+                {"name": "Frantzdy Pierrot",      "club": "Çaykur Rizespor"},
+                {"name": "Wilson Isidor",         "club": "Sunderland"},
+                {"name": "Yassin Fortuné",        "club": "Vizela"},
+                {"name": "Lenny Joseph",          "club": "Ferencváros"},
+            ],
+        },
+    },
+    "Scotland": {
+        "status": "final",
+        "squad": {
+            "goalkeepers": [
+                {"name": "Craig Gordon",          "club": "Hearts"},
+                {"name": "Angus Gunn",            "club": "Nottingham Forest"},
+                {"name": "Liam Kelly",            "club": "Rangers"},
+            ],
+            "defenders": [
+                {"name": "Grant Hanley",          "club": "Hibernian"},
+                {"name": "Jack Hendry",           "club": "Al Etiffaq"},
+                {"name": "Aaron Hickey",          "club": "Brentford"},
+                {"name": "Dom Hyam",              "club": "Wrexham"},
+                {"name": "Scott McKenna",         "club": "Dinamo Zagreb"},
+                {"name": "Nathan Patterson",      "club": "Everton"},
+                {"name": "Anthony Ralston",       "club": "Celtic"},
+                {"name": "Andy Robertson",        "club": "Liverpool"},
+                {"name": "John Souttar",          "club": "Rangers"},
+                {"name": "Kieran Tierney",        "club": "Celtic"},
+            ],
+            "midfielders": [
+                {"name": "Ryan Christie",         "club": "Bournemouth"},
+                {"name": "Finlay Curtis",         "club": "Kilmarnock"},
+                {"name": "Lewis Ferguson",        "club": "Bologna"},
+                {"name": "Ben Gannon-Doak",       "club": "Bournemouth"},
+                {"name": "Billy Gilmour",         "club": "Napoli"},
+                {"name": "John McGinn",           "club": "Aston Villa"},
+                {"name": "Kenny McLean",          "club": "Norwich"},
+                {"name": "Scott McTominay",       "club": "Napoli"},
+            ],
+            "forwards": [
+                {"name": "Ché Adams",             "club": "Torino"},
+                {"name": "Lyndon Dykes",          "club": "Charlton Athletic"},
+                {"name": "George Hirst",          "club": "Ipswich"},
+                {"name": "Lawrence Shankland",    "club": "Hearts"},
+                {"name": "Ross Stewart",          "club": "Southampton"},
+            ],
+        },
+    },
 
     # =========================================================================
     # GROUP D
@@ -290,7 +404,45 @@ SQUADS = {
 
     "Germany":                  {"status": "pending", "squad": {}},
     "Curacao":                  {"status": "pending", "squad": {}},
-    "Cote d'Ivoire":            {"status": "pending", "squad": {}},
+    "Cote d'Ivoire": {
+        "status": "final",
+        "squad": {
+            "goalkeepers": [
+                {"name": "Yahia Fofana",           "club": "Rizespor"},
+                {"name": "Mohomed Koné",           "club": "Charleroi"},
+                {"name": "Alban Lafont",           "club": "Panathinaikos"},
+            ],
+            "defenders": [
+                {"name": "Emmanuel Agbadou",       "club": "Beşiktaş"},
+                {"name": "Clément Akpa",           "club": "AJ Auxerre"},
+                {"name": "Ousmane Diomande",       "club": "Sporting CP"},
+                {"name": "Guela Doué",             "club": "Strasbourg"},
+                {"name": "Ghislain Konan",         "club": "Gil Vicente"},
+                {"name": "Odilon Kossounou",       "club": "Atalanta"},
+                {"name": "Evan Ndicka",            "club": "AS Roma"},
+                {"name": "Wilfried Singo",         "club": "Galatasaray"},
+            ],
+            "midfielders": [
+                {"name": "Seko Fofana",            "club": "Porto"},
+                {"name": "Parfait Guiagon",        "club": "Charleroi"},
+                {"name": "Franck Kessié",          "club": "Al Ahli"},
+                {"name": "Christ Inao Oulaï",      "club": "Trabzonspor"},
+                {"name": "Ibrahim Sangaré",        "club": "Nottingham Forest"},
+                {"name": "Jean Michaël Seri",      "club": "NK Maribor"},
+            ],
+            "forwards": [
+                {"name": "Simon Adingra",          "club": "AS Monaco"},
+                {"name": "Ange-Yoan Bonny",        "club": "Internazionale"},
+                {"name": "Amad Diallo",            "club": "Manchester United"},
+                {"name": "Oumar Diakité",          "club": "Cercle Brugge"},
+                {"name": "Yan Diomande",           "club": "RB Leipzig"},
+                {"name": "Evann Guessand",         "club": "Aston Villa"},
+                {"name": "Nicolas Pépé",           "club": "Villarreal"},
+                {"name": "Bazoumana Touré",        "club": "Hoffenheim"},
+                {"name": "Elye Wahi",              "club": "Nice"},
+            ],
+        },
+    },
     "Ecuador":                  {"status": "pending", "squad": {}},
 
     # =========================================================================
@@ -376,7 +528,7 @@ SQUADS = {
         },
     },
 
-    "Tunisia":                  {"status": "pending", "squad": {}},
+    
 
     # =========================================================================
     # GROUP G
@@ -512,7 +664,45 @@ SQUADS = {
 
     "Senegal":                  {"status": "pending", "squad": {}},
     "Iraq":                     {"status": "pending", "squad": {}},
-    "Norway":                   {"status": "pending", "squad": {}},
+    "Norway": {
+        "status": "final",
+        "squad": {
+            "goalkeepers": [
+                {"name": "Ørjan Nyland",           "club": "Sevilla"},
+                {"name": "Egil Selvik",            "club": "Watford"},
+                {"name": "Sander Tangvik",         "club": "Hamburg SV"},
+            ],
+            "defenders": [
+                {"name": "Julian Ryerson",         "club": "Borussia Dortmund"},
+                {"name": "Kristoffer Ajer",        "club": "Brentford"},
+                {"name": "Leo Østigård",           "club": "Genoa"},
+                {"name": "David Møller Wolfe",     "club": "Wolverhampton Wanderers"},
+                {"name": "Marcus Pedersen",        "club": "Torino"},
+                {"name": "Torbjørn Heggem",        "club": "Bologna"},
+                {"name": "Fredrik André Bjørkan",  "club": "Bodø/Glimt"},
+                {"name": "Henrik Falchener",       "club": "Viking"},
+                {"name": "Sondre Langås",          "club": "Derby County"},
+            ],
+            "midfielders": [
+                {"name": "Martin Ødegaard",        "club": "Arsenal"},
+                {"name": "Sander Berge",           "club": "Fulham"},
+                {"name": "Patrick Berg",           "club": "Bodø/Glimt"},
+                {"name": "Kristian Thorstvedt",    "club": "Sassuolo"},
+                {"name": "Morten Thorsby",         "club": "Cremonese"},
+                {"name": "Thelo Aasgaard",         "club": "Rangers"},
+                {"name": "Andreas Schjelderup",    "club": "Benfica"},
+                {"name": "Jens Petter Hauge",      "club": "Bodø/Glimt"},
+                {"name": "Fredrik Aursnes",        "club": "Benfica"},
+                {"name": "Oscar Bobb",             "club": "Fulham"},
+                {"name": "Antonio Nusa",           "club": "RB Leipzig"},
+            ],
+            "forwards": [
+                {"name": "Erling Haaland",         "club": "Manchester City"},
+                {"name": "Alexander Sørloth",      "club": "Atlético Madrid"},
+                {"name": "Jørgen Strand Larsen",   "club": "Crystal Palace"},
+            ],
+        },
+    },
 
     # =========================================================================
     # GROUP J
